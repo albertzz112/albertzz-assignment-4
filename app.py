@@ -59,3 +59,7 @@ def search():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+def test_example():
+    assert 1 + 1 == 2
+
